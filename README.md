@@ -4,6 +4,7 @@ A live talent ops dashboard that reads directly from Google Sheets to give recru
 
 🎥 **Demo Video:** [Watch the demo](your-link-here)
 🔗 **Live Dashboard:** [View live](https://haeshadae.github.io/sample-recruiting-dashboard/)
+🗂 **Sample Data:** [View Google Sheet](https://docs.google.com/spreadsheets/d/1PXP8-SZ07zLTGen53n8fXxz6gbD0GVY6abkRkDWKMM0/edit?gid=987125841#gid=987125841)
 
 ---
 ## ✨ What It Does
