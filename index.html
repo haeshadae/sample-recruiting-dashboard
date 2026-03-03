@@ -256,7 +256,7 @@
     const sourceTotal = data.length || 1;
     const sources = Object.entries(sourceMap).map(([label,count],i) => ({ label, value: Math.round(count/sourceTotal*100), color: sourceColors[i % sourceColors.length] }));
     return {
-      kpis: { timeToHire: avgDays, openReqs: active.length, activeCandidates: active.length, offerAcceptRate: offered.length ? Math.round(hired.length/offered.length*100) : 0, pipelineConversion: data.length ? Math.round(hired.length/data.length*100) : 0 },
+      kpis: { timeToHire: avgDays, openReqs: new Set(active.map(d => d.Role)).size, activeCandidates: active.length, offerAcceptRate: offered.length ? Math.round(hired.length/offered.length*100) : 0, pipelineConversion: data.length ? Math.round(hired.length/data.length*100) : 0 },
       timeToHire: { labels: [...new Set(hired.map(d => d.Role))].slice(0,6), values: [...new Set(hired.map(d => d.Role))].slice(0,6).map(role => Math.round(hired.filter(d => d.Role===role).reduce((s,d) => s+(+d["Days to Hire"]||0),0) / Math.max(hired.filter(d => d.Role===role).length,1))) },
       sources, funnel: funnelCounts,
       hiresBySource: { labels: Object.keys(sourceMap), values: Object.values(sourceMap) },
