@@ -2,7 +2,7 @@
 # 📊 NovaMind AI — Recruiting Operations Dashboard
 A live talent ops dashboard that reads directly from Google Sheets to give recruiting leads and Chiefs of Staff real-time visibility into their hiring pipeline — no ATS required.
 
-🎥 **Demo Video:** [Watch the demo](your-link-here)
+🎥 **Demo Video:** [Watch the demo](https://drive.google.com/file/d/1U88H6VUFOTrINLL1duxzlk8aNIyPErVS/view?usp=drive_link)
 🔗 **Live Dashboard:** [View live](https://haeshadae.github.io/sample-recruiting-dashboard/)
 🗂 **Sample Data:** [View Google Sheet](https://docs.google.com/spreadsheets/d/1PXP8-SZ07zLTGen53n8fXxz6gbD0GVY6abkRkDWKMM0/edit?gid=987125841#gid=987125841)
 
